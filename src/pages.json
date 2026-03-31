@@ -31,6 +31,15 @@
       "style": {
         "navigationBarTitleText": "关于"
       }
+    },
+    {
+      "path": "pages/playground/index",
+      "type": "page",
+      "name": "playground",
+      "layout": "tabbar",
+      "style": {
+        "navigationBarTitleText": "测试场"
+      }
     }
   ],
   "subPackages": [
@@ -226,7 +235,12 @@
       },
       {
         "pagePath": "pages/about/index"
+      },
+      // #ifdef H5
+      {
+        "pagePath": "pages/playground/index"
       }
+      // #endif
     ]
   }
 }

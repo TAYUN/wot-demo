@@ -46,6 +46,8 @@ export default defineUniPages({
     list: [{
       pagePath: 'pages/index/index',
     }, {
+      pagePath: 'pages/playground/index',
+    }, {
       pagePath: 'pages/about/index',
     }],
   },
